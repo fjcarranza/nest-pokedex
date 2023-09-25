@@ -17,6 +17,11 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Reconstruir la Base de datos con una semilla. 
+   Borra todos los Datos que existan previemante.
+```
+http://localhost:3000/api/v2/seed/
+```
 ## Stack usado
 
 * MongoBD
