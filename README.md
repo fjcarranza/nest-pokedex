@@ -16,9 +16,16 @@ npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Clonar el archivo __.env.template__ y renombrarla a __.env__
 
-5. Reconstruir la Base de datos con una semilla. 
-   Borra todos los Datos que existan previemante.
+6. Asignar los valores a la variables de entorno del archivo __.env__
+
+7. Levantar la aplicacion corrientdo el comando: 
+```
+yarn start:dev
+```
+8. Reconstruir la Base de datos con una semilla. 
+   __Ojo__ Que esto __Borrara__ todos los Datos existentes.
 ```
 http://localhost:3000/api/v2/seed/
 ```
