@@ -18,7 +18,10 @@ docker-compose up -d
 ```
 5. Clonar el archivo __.env.template__ y renombrarla a __.env__
 
-6. Asignar los valores a la variables de entorno del archivo __.env__
+6. Asignar los valores a la variables de entorno del archivo 
+```
+.env
+```
 
 7. Levantar la aplicacion corrientdo el comando: 
 ```
